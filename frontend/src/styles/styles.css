@@ -1,0 +1,153 @@
+/* Global styles */
+body {
+  background-color: #edeff1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #edeff1;
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style the GitHub logo image */
+.App-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* UserSearch-specific styles */
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+/* Style the input */
+.user-info-container input[type="text"] {
+  margin: 10px;
+  padding: 16px 32px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 2px solid #409443;
+  outline: none;
+  background-color: #edeff1;
+}
+
+.user-info-container button {
+  background-color: #409443;
+  border: 2px solid #409443;
+  border-radius: 8px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.user-info-container button:hover {
+  background-color: #edeff1;
+  color: #409443;
+  border: 2px solid #409443;
+}
+
+/* Style the user details container */
+.user-details-container {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start; 
+  justify-content: center; 
+  max-width: 800px; 
+  margin: 20px auto; 
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+ }
+
+/* Style the user details column */
+.user-details-column {
+  flex: 1; 
+  padding: 10px; 
+  border: solid 2px #edeff1;
+  border-radius: 8px;
+}
+
+/* Style the user profile section */
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: #409443 4px solid;
+}
+
+.user-profile a{
+  font-size: 18px;
+  text-decoration: none;
+  color: #409443;
+  font-weight: bold;
+}
+
+.user-profile a:hover {
+  text-decoration: underline;
+}
+
+/* Style the user stats section */
+.user-stats {
+  margin-top: 20px;
+}
+
+.user-stats p {
+  font-size: 18px;
+}
+
+/* Style the other info section */
+.other-info {
+  margin-top: 20px;
+}
+
+.other-info h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* Style the repositories list */
+.repos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.repos-list li {
+  margin-bottom: 20px;
+}
+
+.repos-list a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #409443;
+  font-weight: bold;
+}
+
+.repos-list a:hover {
+  text-decoration: underline;
+}

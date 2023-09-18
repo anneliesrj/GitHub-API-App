@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render test 1`] = `
+<div
+  className="App"
+>
+  <main>
+    <div
+      className="user-info-container"
+    >
+      <header
+        className="App-header"
+      >
+        <img
+          alt="GitHub logo"
+          src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png"
+        />
+        <h1>
+          Github User Search
+        </h1>
+      </header>
+      <div
+        className="search"
+      >
+        <input
+          onChange={[Function]}
+          placeholder="Enter GitHub username"
+          type="text"
+          value=""
+        />
+        <button
+          onClick={[Function]}
+        >
+          Search
+        </button>
+      </div>
+    </div>
+     
+  </main>
+</div>
+`;
