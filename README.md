@@ -7,7 +7,7 @@
 4. [Credits](#credits)
 
 ### Description
-This app gives you the option to search for a user profile on GitHub using the GitHub API. With entering the username and retrieving the search resutlts, there will be a few user details visible on the page like user name, following, some repos and last commits.
+This app gives you the option to search for a user profile on GitHub using the GitHub API. With entering the username and retrieving the search results, there will be a few user details visible on the page like user name, following, some repos and last commits.
 
 ### Instalation
 1. Clone the repository
